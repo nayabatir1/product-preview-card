@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap");
+
+:root {
+  --font-size: 14px;
+  --cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --white: hsl(0, 0%, 100%);
+  --bold: 500;
+  --bolder: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cream);
+  font-size: var(--font-size);
+
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
